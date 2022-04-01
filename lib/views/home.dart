@@ -37,17 +37,13 @@ class _HomeState extends State<Home> {
               indicatorColor: Colors.black,
               tabs: [
                 Tab(
-                  text: ('Home'),
-                ),
+                  text: ('Home')),
                 Tab(
-                  text: ('Mens'),
-                ),
+                  text: ('Mens')),
                 Tab(
-                  text: ('Womans'),
-                ),
+                  text: ('Womans')),
                 Tab(
-                  text: ('LookBook'),
-                ),
+                  text: ('LookBook')),
               ]),
         ),
         body: TabBarView(

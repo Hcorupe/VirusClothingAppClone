@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:virusclothingappclone/views/backgr.dart';
 import 'package:virusclothingappclone/views/cart.dart';
 import 'package:virusclothingappclone/views/home.dart';
 
@@ -33,6 +34,7 @@ class _MyAppState extends State<MyApp> {
       routes: {
         'home': (context) => const Home(),
         'cart': (context) => const Cart(),
+        'backgr': (context) => const BackGr(),
       },
     );
   }
