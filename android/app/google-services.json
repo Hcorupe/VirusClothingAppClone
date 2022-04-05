@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1011968528409",
+    "project_id": "virusclothingclone",
+    "storage_bucket": "virusclothingclone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011968528409:android:cd9ef9b09677ef768a1a88",
+        "android_client_info": {
+          "package_name": "com.example.virusclothingappclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011968528409-ri483t3r6avbo74i5imh69im44o2otio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHFdoo-I0pXWDZej6LbBcJ8_-f-nq3WWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011968528409-ri483t3r6avbo74i5imh69im44o2otio.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1011968528409-v7ja1ovnfhmen2mennjde6ur30buf2vg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.virusclothingappclone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

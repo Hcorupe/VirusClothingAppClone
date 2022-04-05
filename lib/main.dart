@@ -1,3 +1,4 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:virusclothingappclone/views/backgr.dart';
@@ -7,7 +8,9 @@ import 'package:virusclothingappclone/views/home.dart';
 import 'notifiers/drawer_notifier.dart';
 
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(MultiProvider(
     providers: [ChangeNotifierProvider(create: (context) => DrawerNotifier())],
     child: const MyApp(),
@@ -27,7 +30,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.grey,
+        primarySwatch: Colors.green,
       ),
       home: Home(),
       initialRoute: 'home',

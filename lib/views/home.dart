@@ -20,13 +20,14 @@ class _HomeState extends State<Home> {
         appBar: AppBar(
           elevation: 1,
           backgroundColor: Colors.white,
+          centerTitle: true,
           title: const Text(
             'Virus',
             style: TextStyle(color: Colors.black),
           ),
           actions: const [
             Icon(
-              Icons.admin_panel_settings,
+              Icons.shopping_cart_outlined,
               color: Colors.black,
             )
           ],

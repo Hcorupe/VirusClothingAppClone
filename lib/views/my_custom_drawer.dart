@@ -21,6 +21,7 @@ class MyCustomDrawer extends StatelessWidget {
             title: drawerItems[index].title,
             icon: drawerItems[index].icon,
             onClicked: () {
+
               print(index);
               switch (index) {
                 case 0:
