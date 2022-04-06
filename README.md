@@ -1,15 +1,9 @@
 # virusclothingappclone
 
-A reverse engineering project
+A reverse engineering project. 
 
-## Getting Started
-
-This project is a clone of Virus's INTL clothing app.
-
+## This project is a clone of Virus's INTL clothing app using Flutter.
 
 ![](gitrepo_images/Group%201.png)
-
-
-
 
 # VirusClothingAppClone
